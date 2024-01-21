@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="pl-PL">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio Website</title>
+  <meta name="author" content="Autorek" />
+  <meta name="description" content="Firma zajmująca się tworzeniem stron internetowych." />
+  <link rel="preconnect" href="https://fonts.googleapis.com/">
+  <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="">
+  <link rel="icon" type="image/x-icon" href="./dist/img/favIcon.png">
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500;600;700&amp;display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="./dist/css/style.min.css">
+  <!-- <link rel="preconnect" href="./dist/img/Upscales.ai_1703632241596.jpeg" fetchpriority="high" as="image" /> -->
+  <link rel="preconnect" href="./dist/img/mhm-min.jpg" fetchpriority="high" as="image" />
+
+</head>
+
+<body class="main-content">
+
+  <nav class="navbar" role="navigation">
+    <div class="container">
+      <div class="navbar__content">
+
+        <a href="#" class="navbar__logo" aria-label="Przejdź na górę strony">
+          <img src="./dist/img/logoIconColor.png" alt="logo chłopak o brązowych włosach siedzący przed komputerem"
+            class="navbar__logo-img">
+        </a>
+
+        <ul class="navbar__menu">
+          <li class="navbar__menu-item">
+            <a href="#about" class="navbar__link" aria-label="O mnie">O mnie</a>
+          </li>
+          <li class="navbar__menu-item">
+            <a href="#portfolio" class="navbar__link" aria-label="Portfolio">Portfolio</a>
+          </li>
+          <li class="navbar__menu-item">
+            <a href="#faq" class="navbar__link" aria-label="FAQ">FAQ</a>
+
+          </li>
+          <li class="navbar__menu-item">
+            <a href="#services" class="navbar__link" aria-label="Usługi">Usługi</a>
+
+          </li>
+          <li class="navbar__menu-item">
+            <a href="#contact" class="navbar__link" aria-label="Kontakt">Kontakt</a>
+          </li>
+
+          <li class="navbar__menu-item navbar__menu-socials">
+            <ul class="navbar__social-mobile">
+              <li class="navbar__menu-item">
+                <a href="#" class="navbar__social-link" aria-label="Facebook">
+                  <img src="./dist/img/facebook-round-color-icon.svg" alt="Facebook">
+                </a>
+              </li>
+              <li class="navbar__menu-item">
+                <a href="#" class="navbar__social-link" aria-label="Twitter">
+                  <img src="./dist/img/x-social-media-white-icon.svg" alt="Twitter" class="navbar__socialmedia-icon">
+                </a>
+              </li>
+              <li class="navbar__menu-item">
+                <a href="#" class="navbar__social-link" aria-label="Instagram">
+                  <img src="./dist/img/instagram-white-icon.svg" alt="Instagram">
+                </a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+
+        <ul class="navbar__social">
+          <li class="navbar__links-item">
+            <a href="#" class="navbar__social-link" aria-label="Facebook">
+              <img src="./dist/img/facebook-round-color-icon.svg" alt="Facebook">
+            </a>
+          </li>
+          <li class="navbar__links-item">
+            <a href="#" class="navbar__social-link" aria-label="Twitter">
+              <img src="./dist/img/x-social-media-white-icon.svg" alt="Twitter" class="navbar__socialmedia-icon">
+            </a>
+          </li>
+          <li class="navbar__links-item">
+            <a href="#" class="navbar__social-link" aria-label="Instagram">
+              <img src="./dist/img/instagram-white-icon.svg" alt="Instagram">
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <button class="burger" aria-label="Otwórz menu nawigacyjne" role="button">
+      <span class="line"></span>
+      <span class="line"></span>
+      <span class="line"></span>
+    </button>
+
+  </nav>
+
+  <header class="header">
+    <div class="container">
+      <div class="header__box">
+        <h1 class="header__box-heading">
+          Twoja witryna, nasza pasja.
+        </h1>
+        <h2 class="header__box-text">
+          Zaufaj nam, aby stworzyć unikalne doświadczenia online, które zostaną w pamięci Twoich klientów.
+
+        </h2>
+        <div class="header__box-buttons">
+          <a href="#contact" class="button header__box-button header__box-button--first">Kontakt</a>
+          <a href="#portfolio" class="button header__box-button header__box-button--second">Sprawdź
+            realizacje</a>
+        </div>
+      </div>
+    </div>
+  </header>
+  <div class="waves">
+    <img src="./dist/img/waves.svg" alt="element dekoracyjny fale">
+  </div>
+
+  <main class="main" id="main-content">
+    <section class="about section" id="about">
+      <div class="container">
+        <div class="about__box">
+          <div class="about__box-img">
+            <img src="./dist/img/about_image.jpg" alt="chłopak w okularach VR w czarnej bluzie">
+            <div class="gradient-overlay"></div>
+          </div>
+          <div class="about__box-text">
+            <div class="section__box">
+              <h2 class="section__box-name">O mnie</h2>
+              <h3 class="section__box-heading">Kilka słów o mnie <img src="./dist/img/wave%20(1).png"
+                  alt="element dekoracyjny emotka machającej ręki"></h3>
+            </div>
+            <p>Cześć! Nazywam się John Doe, doświadczony webdeveloper z wieloletnim doświadczeniem w
+              projektowaniu responsywnych stron internetowych.</p>
+            <p>Moja pasja do tworzenia estetycznych i funkcjonalnych witryn napędza mnie do ciągłego
+              doskonalenia umiejętności. </p>
+            <p>Z przyjemnością dzielę się moim doświadczeniem i wiedzą z klientami, aby wspólnie osiągnąć
+              najlepsze rezultaty.</p>
+          </div>
+        </div>
+
+        <div class="technologies">
+          <h3 class="technologies__heading"><span>Technologie</span> w których pracuję</h3>
+          <div class="technologies__box">
+            <img src="./dist/img/html5-01-svgrepo-com.svg" alt="logo HTML">
+            <img src="./dist/img/css3-01-svgrepo-com.svg" alt="logo CSS">
+            <img src="./dist/img/javascript-16-svgrepo-com.svg" alt="logo JavaScript">
+            <img src="./dist/img/sass-svgrepo-com.svg" alt="logo SASS">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="portfolio section" id="portfolio">
+      <div class="container">
+        <div class="portfolio__box">
+
+          <div class="section__box">
+            <h2 class="section__box-name">portfolio</h2>
+            <h3 class="section__box-heading">Innowacyjne rozwiązania,<br> które wyróżniają <span>Twój
+                biznes.</span></h3>
+            <p class="section__box-text">Strony internetowe to nie tylko kod. To historia, która łączy marki
+              z
+              ich klientami. Poznaj moje projekty, które opowiadają unikalne historie.</p>
+
+          </div>
+
+          <div class="portfolio__container">
+
+            <div class="portfolio__project">
+              <a href="#">
+                <img src="./dist/img/about_image.jpg" alt="zdjęcie projektu strony internetowej"
+                  class="portfolio__project-image">
+                <div class="portfolio__project-items">
+                  <p>Projekt strony</p>
+
+                </div>
+                <div class="gradient-overlay"></div>
+
+              </a>
+            </div>
+
+            <div class="portfolio__project">
+              <a href="#">
+                <img src="./dist/img/mhm4.jpg" alt="zdjęcie projektu strony internetowej"
+                  class="portfolio__project-image">
+                <div class="portfolio__project-items">
+                  <p>Projekt strony</p>
+
+                </div>
+                <div class="gradient-overlay"></div>
+              </a>
+            </div>
+            <div class="portfolio__project">
+              <a href="#">
+                <img src="./dist/img/mhm3.jpg" alt="zdjęcie projektu strony internetowej"
+                  class="portfolio__project-image">
+                <div class="portfolio__project-items">
+                  <p>Projekt strony</p>
+
+                </div>
+                <div class="gradient-overlay"></div>
+
+              </a>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="faq section" id="faq">
+      <div class="container">
+        <div class="faq__box">
+
+          <div class="section__box">
+            <h2 class="section__box-name">FAQ</h2>
+            <h3 class="section__box-heading">Znajdź odpowiedzi na najczęściej <br> zadawane pytania!</h3>
+          </div>
+
+          <div class="accordion">
+            <div class="accordion__box">
+              <button class="accordion__box-btn">
+                1. Jakie rodzaje projektów webowych realizujesz?
+                <div class="plus">+</div>
+              </button>
+              <div class="accordion__info">
+                <p class="accordion__info-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                  Qui
+                  magni
+                  inventore quaerat iure eos ipsam quia, odio quod laudantium eaque!</p>
+              </div>
+            </div>
+            <div class="accordion__box">
+              <button class="accordion__box-btn">
+                2. Jakie rodzaje projektów webowych realizujesz?
+                <div class="plus">+</div>
+              </button>
+              <div class="accordion__info">
+                <p class="accordion__info-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                  Qui
+                  magni
+                  inventore quaerat iure eos ipsam quia, odio quod laudantium eaque!</p>
+              </div>
+            </div>
+            <div class="accordion__box">
+              <button class="accordion__box-btn">
+                3. Jakie rodzaje projektów webowych realizujesz?
+                <div class="plus">+</div>
+              </button>
+              <div class="accordion__info">
+                <p class="accordion__info-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                  Qui
+                  magni
+                  inventore quaerat iure eos ipsam quia, odio quod laudantium eaque!</p>
+              </div>
+            </div>
+
+          </div>
+          <div class="question__box">
+
+            <p>Nie znalazłeś interesującego ciebie pytania?</p>
+            <a href="#contact" aria-label="Przejdź do sekcji Kontakt">Kontakt</a>
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+    <section class="services section" id="services">
+      <div class="container">
+        <div class="services__box">
+          <div class="section__box">
+            <h2 class="section__box-name">usługi</h2>
+            <h3 class="section__box-heading">Zamień wizję na rzeczywistość - <br> zbudujmy razem Twoją
+              idealną
+              stronę!</h3>
+            <p class="section__box-text">Od prostych witryn po zaawansowane aplikacje internetowe.</p>
+          </div>
+
+          <div class="services__cards">
+            <div class="services__card">
+              <img src="./dist/img/world-wide-web.png" alt="ikonka sieci www">
+
+              <h4 class="services__card-title">Web development</h4>
+              <p class="services__card-description">Tworzymy responsywne, nowoczesne strony internetowe
+                dopasowane do Twoich potrzeb.</p>
+            </div>
+            <div class="services__card services__card--inactive">
+              <img src="./dist/img/world-wide-web.png" alt="ikonka sieci www">
+
+              <h4 class="services__card-title">Web development</h4>
+              <p class="services__card-description">Tworzymy responsywne, nowoczesne strony internetowe
+                dopasowane do Twoich potrzeb.</p>
+            </div>
+            <div class="services__card services__card--inactive">
+              <img src="./dist/img/world-wide-web.png" alt="ikonka sieci www">
+
+              <h4 class="services__card-title">Web development</h4>
+              <p class="services__card-description">Tworzymy responsywne, nowoczesne strony internetowe
+                dopasowane do Twoich potrzeb.</p>
+            </div>
+          </div>
+
+          <div class="our-priority">
+            <h3>Nasze <span>priorytety</span></h3>
+
+            <div class="our-priority__cards">
+              <div class="our-priority__card">
+                <div class="gradient-overlay"></div>
+                <img src="./dist/img/seo.png" alt="ikonka SEO">
+                <h4 class="our-priority__card-title">SEO</h4>
+                <p class="our-priority__card-description">Dbamy o skuteczne SEO, aby Twoja strona była
+                  łatwo odnajdywana w wynikach
+                  wyszukiwania.
+                </p>
+                <p class="our-priority__card-description">Zoptymalizowane treści, tagi i struktura
+                  witryny dla lepszej widoczności.</p>
+              </div>
+              <div class="our-priority__card">
+                <div class="gradient-overlay"></div>
+
+                <img src="./dist/img/responsive.png" alt="ikonka tabletu,telefonu i komputera">
+                <h4 class="our-priority__card-title">Responsywność i Dostępność</h4>
+                <p class="our-priority__card-description">Tworzymy responsywne strony, dostosowane do
+                  różnych urządzeń i ekranów.
+                </p>
+                <p class="our-priority__card-description">Zapewniamy dostępność, aby każdy mógł
+                  skorzystać z Twojej witryny.</p>
+              </div>
+              <div class="our-priority__card">
+                <div class="gradient-overlay"></div>
+
+                <img src="./dist/img/speedometer.png" alt="ikonka licznika prędkości">
+                <h4 class="our-priority__card-title">Szybkość Ładowania</h4>
+                <p class="our-priority__card-description">Optymalizujemy prędkość ładowania, eliminując
+                  czynniki opóźniające.
+                </p>
+                <p class="our-priority__card-description">Szybkie witryny poprawiają doświadczenie
+                  użytkownika i SEO.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="contact section" id="contact">
+      <div class="container">
+        <div class="section__box">
+          <h2 class="section__box-name">KONTAKT</h2>
+          <h3 class="section__box-heading">Zrealizujmy Twój projekt razem!<br> <span> Napisz już dziś.</span>
+          </h3>
+          <p class="section__box-text">Gotowy na rozmowę o Twoich pomysłach? Skontaktuj się ze mną mailowo,
+            aby zacząć pracę nad Twoją wymarzoną stroną.</p>
+        </div>
+        <div class="contact__box">
+          <a href="mailto:mojadres@gmail.com" class="contact__email">
+            <img src="./dist/img/email%20(1).png" alt="ikonka email" class="contact__email-icon">mojemail@gmail.com
+          </a>
+          <div class="contact__box-socialmedia">
+            <a href="#">
+              <img src="./dist/img/facebook-round-color-icon.svg" alt="Logo Facebook" class="contact__icon">
+            </a>
+            <a href="#">
+              <img src="./dist/img/instagram-white-icon.svg" alt="Logo Instagram" class="contact__icon">
+            </a>
+            <a href="#">
+              <img src="./dist/img/x-social-media-white-icon.svg" alt="Logo Twitter" class="contact__icon">
+            </a>
+
+          </div>
+        </div>
+      </div>
+      <div class="waves">
+        <img src="./dist/img/waves.svg" alt="element dekoracyjny fale">
+      </div>
+    </section>
+  </main>
+
+
+  <a href="#" class="arrow-to-top" aria-label="Przejdź na górę strony"><img src="./dist/img/white-arrow-top.png"
+      alt="biała strzałka"></a>
+
+
+
+  <footer class="footer" id="footer">
+    <div class="container">
+      <p class="footer__copyright">© <span id="footer-number">2024</span> Portfolio Website </p>
+    </div>
+  </footer>
+
+  <script defer src="./dist/js/main.min.js"></script>
+</body>
+
+</html>
