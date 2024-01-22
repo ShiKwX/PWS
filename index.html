@@ -11,10 +11,11 @@
   <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="">
   <link rel="icon" type="image/x-icon" href="./dist/img/favIcon.png">
   <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500;600;700&amp;display=swap"
-    rel="stylesheet">
+    rel="stylesheet" media="all">
   <link rel="stylesheet" href="./dist/css/style.min.css">
   <!-- <link rel="preconnect" href="./dist/img/Upscales.ai_1703632241596.jpeg" fetchpriority="high" as="image" /> -->
-  <link rel="preconnect" href="./dist/img/mhm-min.jpg" fetchpriority="high" as="image" />
+  <link rel="preload" fetchpriority="high" as="image" href="/dist/img/mhm-min.jpg" type="image/webp">
+
 
 </head>
 
@@ -116,7 +117,7 @@
     </div>
   </header>
   <div class="waves">
-    <img src="./dist/img/waves.svg" alt="element dekoracyjny fale">
+    <img src="./dist/img/waves.svg" alt="element dekoracyjny fale" loading="lazy">
   </div>
 
   <main class="main" id="main-content">
@@ -124,14 +125,14 @@
       <div class="container">
         <div class="about__box">
           <div class="about__box-img">
-            <img src="./dist/img/about_image.jpg" alt="chłopak w okularach VR w czarnej bluzie">
+            <img src="./dist/img/about_image.jpg" alt="chłopak w okularach VR w czarnej bluzie" loading="lazy">
             <div class="gradient-overlay"></div>
           </div>
           <div class="about__box-text">
             <div class="section__box">
               <h2 class="section__box-name">O mnie</h2>
               <h3 class="section__box-heading">Kilka słów o mnie <img src="./dist/img/wave%20(1).png"
-                  alt="element dekoracyjny emotka machającej ręki"></h3>
+                  alt="element dekoracyjny emotka machającej ręki" loading="lazy"></h3>
             </div>
             <p>Cześć! Nazywam się John Doe, doświadczony webdeveloper z wieloletnim doświadczeniem w
               projektowaniu responsywnych stron internetowych.</p>
@@ -145,10 +146,10 @@
         <div class="technologies">
           <h3 class="technologies__heading"><span>Technologie</span> w których pracuję</h3>
           <div class="technologies__box">
-            <img src="./dist/img/html5-01-svgrepo-com.svg" alt="logo HTML">
-            <img src="./dist/img/css3-01-svgrepo-com.svg" alt="logo CSS">
-            <img src="./dist/img/javascript-16-svgrepo-com.svg" alt="logo JavaScript">
-            <img src="./dist/img/sass-svgrepo-com.svg" alt="logo SASS">
+            <img src="./dist/img/html5-01-svgrepo-com.svg" alt="logo HTML" loading="lazy">
+            <img src="./dist/img/css3-01-svgrepo-com.svg" alt="logo CSS" loading="lazy">
+            <img src="./dist/img/javascript-16-svgrepo-com.svg" alt="logo JavaScript" loading="lazy">
+            <img src="./dist/img/sass-svgrepo-com.svg" alt="logo SASS" loading="lazy">
           </div>
         </div>
       </div>
@@ -173,7 +174,7 @@
             <div class="portfolio__project">
               <a href="#">
                 <img src="./dist/img/about_image.jpg" alt="zdjęcie projektu strony internetowej"
-                  class="portfolio__project-image">
+                  class="portfolio__project-image" loading="lazy">
                 <div class="portfolio__project-items">
                   <p>Projekt strony</p>
 
@@ -186,7 +187,7 @@
             <div class="portfolio__project">
               <a href="#">
                 <img src="./dist/img/mhm4.jpg" alt="zdjęcie projektu strony internetowej"
-                  class="portfolio__project-image">
+                  class="portfolio__project-image" loading="lazy">
                 <div class="portfolio__project-items">
                   <p>Projekt strony</p>
 
@@ -197,7 +198,7 @@
             <div class="portfolio__project">
               <a href="#">
                 <img src="./dist/img/mhm3.jpg" alt="zdjęcie projektu strony internetowej"
-                  class="portfolio__project-image">
+                  class="portfolio__project-image" loading="lazy">
                 <div class="portfolio__project-items">
                   <p>Projekt strony</p>
 
@@ -283,21 +284,21 @@
 
           <div class="services__cards">
             <div class="services__card">
-              <img src="./dist/img/world-wide-web.png" alt="ikonka sieci www">
+              <img src="./dist/img/world-wide-web.png" alt="ikonka sieci www" loading="lazy">
 
               <h4 class="services__card-title">Web development</h4>
               <p class="services__card-description">Tworzymy responsywne, nowoczesne strony internetowe
                 dopasowane do Twoich potrzeb.</p>
             </div>
             <div class="services__card services__card--inactive">
-              <img src="./dist/img/world-wide-web.png" alt="ikonka sieci www">
+              <img src="./dist/img/world-wide-web.png" alt="ikonka sieci www" loading="lazy">
 
               <h4 class="services__card-title">Web development</h4>
               <p class="services__card-description">Tworzymy responsywne, nowoczesne strony internetowe
                 dopasowane do Twoich potrzeb.</p>
             </div>
             <div class="services__card services__card--inactive">
-              <img src="./dist/img/world-wide-web.png" alt="ikonka sieci www">
+              <img src="./dist/img/world-wide-web.png" alt="ikonka sieci www" loading="lazy">
 
               <h4 class="services__card-title">Web development</h4>
               <p class="services__card-description">Tworzymy responsywne, nowoczesne strony internetowe
@@ -311,7 +312,7 @@
             <div class="our-priority__cards">
               <div class="our-priority__card">
                 <div class="gradient-overlay"></div>
-                <img src="./dist/img/seo.png" alt="ikonka SEO">
+                <img src="./dist/img/seo.png" alt="ikonka SEO" loading="lazy">
                 <h4 class="our-priority__card-title">SEO</h4>
                 <p class="our-priority__card-description">Dbamy o skuteczne SEO, aby Twoja strona była
                   łatwo odnajdywana w wynikach
@@ -323,7 +324,7 @@
               <div class="our-priority__card">
                 <div class="gradient-overlay"></div>
 
-                <img src="./dist/img/responsive.png" alt="ikonka tabletu,telefonu i komputera">
+                <img src="./dist/img/responsive.png" alt="ikonka tabletu,telefonu i komputera" loading="lazy">
                 <h4 class="our-priority__card-title">Responsywność i Dostępność</h4>
                 <p class="our-priority__card-description">Tworzymy responsywne strony, dostosowane do
                   różnych urządzeń i ekranów.
@@ -334,7 +335,7 @@
               <div class="our-priority__card">
                 <div class="gradient-overlay"></div>
 
-                <img src="./dist/img/speedometer.png" alt="ikonka licznika prędkości">
+                <img src="./dist/img/speedometer.png" alt="ikonka licznika prędkości" loading="lazy">
                 <h4 class="our-priority__card-title">Szybkość Ładowania</h4>
                 <p class="our-priority__card-description">Optymalizujemy prędkość ładowania, eliminując
                   czynniki opóźniające.
@@ -358,31 +359,34 @@
         </div>
         <div class="contact__box">
           <a href="mailto:mojadres@gmail.com" class="contact__email">
-            <img src="./dist/img/email%20(1).png" alt="ikonka email" class="contact__email-icon">mojemail@gmail.com
+            <img src="./dist/img/email%20(1).png" alt="ikonka email" class="contact__email-icon"
+              loading="lazy">mojemail@gmail.com
           </a>
           <div class="contact__box-socialmedia">
             <a href="#">
-              <img src="./dist/img/facebook-round-color-icon.svg" alt="Logo Facebook" class="contact__icon">
+              <img src="./dist/img/facebook-round-color-icon.svg" alt="Logo Facebook" class="contact__icon"
+                loading="lazy">
             </a>
             <a href="#">
-              <img src="./dist/img/instagram-white-icon.svg" alt="Logo Instagram" class="contact__icon">
+              <img src="./dist/img/instagram-white-icon.svg" alt="Logo Instagram" class="contact__icon" loading="lazy">
             </a>
             <a href="#">
-              <img src="./dist/img/x-social-media-white-icon.svg" alt="Logo Twitter" class="contact__icon">
+              <img src="./dist/img/x-social-media-white-icon.svg" alt="Logo Twitter" class="contact__icon"
+                loading="lazy">
             </a>
 
           </div>
         </div>
       </div>
       <div class="waves">
-        <img src="./dist/img/waves.svg" alt="element dekoracyjny fale">
+        <img src="./dist/img/waves.svg" alt="element dekoracyjny fale" loading="lazy">
       </div>
     </section>
   </main>
 
 
   <a href="#" class="arrow-to-top" aria-label="Przejdź na górę strony"><img src="./dist/img/white-arrow-top.png"
-      alt="biała strzałka"></a>
+      alt="biała strzałka" loading="lazy"></a>
 
 
 
