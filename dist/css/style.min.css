@@ -277,8 +277,7 @@
 	left: -8%;
 	width: 200px;
 	height: 200px;
-	background-image: url(../../../dist/img/diamond.png);
-	background-image: url(../../../dist/img/diamond-svgrepo-com.svg);
+	background-image: url(../../dist/img/diamond-svgrepo-com.svg);
 	background-size: cover;
 	opacity: 0.1;
 	transform: rotate(-15deg);
